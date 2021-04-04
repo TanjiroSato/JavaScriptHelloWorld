@@ -2,3 +2,33 @@ console.log('hello world');
 2*4
 8
 alert('yo');
+
+let name = 'Ryan'; 
+console.log(name);
+
+// variables can't be reserved keywords
+// variables should have meaningful names
+// variables can't start with numbers
+// variables can't contain a space or hyphen
+// variables are case sensitive
+// camelCase firstLetterOfEachWordAfterFirstCapitalized
+// Variables shouldn't start with $
+
+let firstName = 'Ryan';
+let lastName = 'Williams';
+console.log(firstName,lastName);
+
+let interestRate = 0.3;
+interestRate = 1;
+console.log(interestRate);
+
+const interestRate = 0.3;
+console.log(interestRate);
+
+// primitive types = string, number, Boolean, undefined, null
+let name = 'Ryan'; // string literal
+let lastName = undefined; // undefined
+let age = '45'; // number literal
+let eyeColor = null; // null, used to show that data hasn't been entered for this value yet
+let isApproved = true; // Boolean Literal
+console.log("Human",name,"Last Name",lastName,"Age",age,"Eye Color",eyeColor,"Is approved to code with Mosh!",isApproved);
