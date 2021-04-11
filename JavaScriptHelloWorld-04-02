@@ -32,3 +32,46 @@ let age = '45'; // number literal
 let eyeColor = null; // null, used to show that data hasn't been entered for this value yet
 let isApproved = true; // Boolean Literal
 console.log("Human",name,"Last Name",lastName,"Age",age,"Eye Color",eyeColor,"Is approved to code with Mosh!",isApproved);
+
+// let person = {
+// name: 'Ryan',
+// age: 45,
+// };
+// person.name = 'Brian'
+// person['age'] = 47
+
+// console.log(person);
+// console.log(person.name);
+// console.log(person.name);
+// console.log(person.age);
+// let selectedColors = ['red', 'white', 'blue'];
+
+// console.log(selectedColors);
+// console.log(selectedColors[0]);
+// console.log(selectedColors[1]);
+// console.log(selectedColors[2]);
+// console.log(selectedColors.length);
+
+// This function performs a task
+// function greet(title, firstName, lastName){
+//    console.log('Hello, ' + title + ' ' + firstName + ' ' + lastName);
+// }
+// greet('Father', 'Norm', 'Williams');
+// greet('Mother', 'Beth', 'Williams');
+// greet('Son', 'Ryan', 'Williams');
+// This function calculates a value
+// function cube(number) {
+//     return number * number *number
+// }
+
+// let answer = cube(3);
+// console.log(answer);
+// let selectedColors = ['red', 'white', 'blue'];
+// console.log(selectedColors);
+// console.log(selectedColors[0]);
+// console.log(selectedColors[1]);
+// console.log(selectedColors[2]);
+// typeof selectedColors
+// "object"
+
+
